@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&display=swap");
+
+.shopping-container {
+  width: 95%;
+  height: 95vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: var(--spacing-large);
+  background-color: var(--color-scroll);
+  font-family: "Cormorant Infant", serif;
+}
+
+.shopping-name {
+  padding: var(--spacing-medium);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.shopping-price {
+  padding: var(--spacing-medium);
+  color: var(--color-unaccent);
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.shopping-close {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: var(--spacing-small);
+  right: var(--spacing-small);
+  background-image: url(../../img/icons8-удалить.svg);
+  object-fit: contain;
+  cursor: pointer;
+}
