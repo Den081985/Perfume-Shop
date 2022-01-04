@@ -10,9 +10,11 @@ class Products {
     if (pushProduct) {
       element.classList.add(this.classNameActive);
       element.innerHTML = this.labelRemove;
+      headerPage.render(products.length);
     } else {
       element.classList.remove(this.classNameActive);
       element.innerHTML = this.labelAdd;
+      headerPage.render(products.length);
     }
   }
 
