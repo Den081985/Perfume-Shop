@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&display=swap");
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: var(--spacing-small);
+  font-family: "Cormorant Infant", serif;
+}
+
+.header-counter {
+  margin-left: auto;
+  color: var(--color-text);
+  font-size: 30px;
+  font-family: inherit;
+  padding-right: var(--spacing-medium);
+  cursor: pointer;
+}
+
+.header-span {
+  margin-left: var(--spacing-large);
+  margin-bottom: var(--spacing-medium);
+  font-size: 45px;
+  color: var(--color-text);
+  font-family: inherit;
+}
