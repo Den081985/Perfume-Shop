@@ -5,10 +5,12 @@
   --color-text: rgb(21, 45, 70);
   --color-scroll: rgb(201, 221, 241);
   --color-scrollTrack: rgb(150, 162, 175);
+  --color-error: rgb(152, 166, 182);
 
   --spacing-small: 10px;
   --spacing-medium: 15px;
   --spacing-large: 25px;
+  --spacing-huge: 50px;
 
   --border-radius: 5px;
 }
