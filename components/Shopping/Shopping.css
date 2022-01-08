@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&display=swap");
 
-.shopping-container {
+.shopping-wrapper {
   width: 95%;
   height: 95vh;
   position: fixed;
@@ -11,6 +11,62 @@
   padding: var(--spacing-large);
   background-color: var(--color-scroll);
   font-family: "Cormorant Infant", serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shopping-list {
+  box-sizing: border-box;
+}
+
+.shopping-form {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-medium);
+}
+
+.shopping-input {
+  width: 150px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.shopping-span {
+  font-family: inherit;
+  font-size: 25px;
+  color: var(--color-text);
+}
+
+.shopping-btnContainer {
+  margin: var(--spacing-medium);
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  width: 185px;
+}
+
+.shopping-btnContainer button {
+  width: 100%;
+  height: 25px;
+  color: var(--color-text);
+  box-sizing: border-box;
+  font-family: "Cormorant Infant", serif;
+  font-size: 18px;
+  padding: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--color-text);
+}
+
+.shopping-btnContainer button:hover,
+.shopping-btnContainer button:focus {
+  outline: none;
+  background: var(--color-scroll);
 }
 
 .shopping-name {
